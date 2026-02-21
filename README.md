@@ -157,7 +157,6 @@ class Menu:
             if final == 'no':
                 print('Programa finalizado')
                 break
-
-if __name__ == '__main__':
+                
     menu = Menu()
     menu.iniciar()
