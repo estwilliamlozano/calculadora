@@ -156,7 +156,6 @@ class Menu:
             final = input('¿Desea volver al menú? si/no: ')
             if final == 'no':
                 print('Programa finalizado')
-                break
-                
-    menu = Menu()
-    menu.iniciar()
+                break            
+menu = Menu()
+menu.iniciar()
